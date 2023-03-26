@@ -9,17 +9,15 @@ The FMTM codebase consists of:
 
 ## Prerequisites for Contribution
 
-### 1. Review documentation
-
 Don't forget to review the [Contribution](https://github.com/hotosm/fmtm/wiki/Contribution) guidelines and our [Code of Conduct](https://github.com/hotosm/fmtm/wiki/Code-of-Conduct) before contributing!
 Here are the steps to contribute to the frontend of Field Mapping Tasking Manager:
 
-### 2. Fork the repository
+### 1. Fork the repository
 
 Forking creates a copy of the repository in your own GitHub account.
 Go to the [Field Mapping Tasking Manager repository](https://github.com/hotosm/fmtm) and click the "Fork" button in the top right corner of the page.
 
-### 3. Navigate to your working directory
+### 2. Navigate to your working directory
 
 Open a terminal and navigate to the directory you want to work in using the following command:
 
@@ -27,7 +25,7 @@ Open a terminal and navigate to the directory you want to work in using the foll
 
 Make sure to replace `<work-dir>` with the name of your directory.
 
-### 4. Clone the forked repository
+### 3. Clone the forked repository
 
 Clone the forked repository to your local machine using the following command:
 
@@ -35,7 +33,7 @@ Clone the forked repository to your local machine using the following command:
 
 Make sure to replace `<your-username>` with your GitHub username.
 
-### 5. Create a new branch
+### 4. Create a new branch
 
 Create a new branch for your changes using the following command:
 
@@ -43,11 +41,11 @@ Create a new branch for your changes using the following command:
 
 Make sure to give your branch a descriptive name that reflects the changes you'll be making.
 
-### 6. Make changes
+### 5. Make changes
 
 Make your cotribution, run tests where needed and save.
 
-### 7. Add changes
+### 6. Add changes
 
 Add the changes you've made using the following command:
 
@@ -55,7 +53,7 @@ Add the changes you've made using the following command:
 
 Make sure you replace `<file-name>` with the name of the file you made changes to.
 
-### 8. Commit and push
+### 7. Commit and push
 
 Once you've added changes, commit them to your local branch using the following command:
 
@@ -65,7 +63,7 @@ Make sure to write a descriptive commit message that explains the changes you've
 
 `git push origin branch-name`
 
-### 9. Submit a pull request
+### 8. Submit a pull request
 
 Go to your forked repository on GitHub and click the "New pull request" button.  
 Select the branch that contains your changes, then click "Create pull request".  
@@ -165,6 +163,6 @@ Once you have deployed, you will need to check that you can properly authenticat
 
 3.  Check your access token: Hit `/auth/me/` and pass your `access_token` You should get your osm id, username and profile picture id
 
-# Start Developing
+# Start Developing!
 
 Don't forget to review [Contribution](https://github.com/hotosm/fmtm/wiki/Contribution) guidelines and our [Code of Conduct](https://github.com/hotosm/fmtm/wiki/Code-of-Conduct) before contributing!
